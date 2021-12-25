@@ -2,17 +2,33 @@ package com.company;
 
 import com.company.task4.Circle;
 
+//import java.util.Arrays;
+
+
 public class Main {
 
     public static void main(String[] args) {
-        Circle circle = new Circle(6.5);
-        circle.getRadius();
-        double m = circle.sum1();
-        System.out.print(m);
+        int count = 0;
+        Circle[] circles = new Circle[10];
 
-        double s = Circle.sum2(3.14, 6.5);
-        System.out.println(s);
+        for ( int i = 0; i < 10; i++) {
+            circles[i] = new Circle(i+1);
+        }
+
+        for(Circle circle: circles) {
+            if(circle.y() % 3 == 0) {
+                count +=1;
+
+            }
+        }
+        System.out.println(count);
 
 
-    }
-}
+
+            }
+        }
+
+
+
+
+

@@ -1,35 +1,30 @@
 package com.company.task4;
 
-//Создайте класс Круг с константной переменной ПИ – 3,14 и обычную переменную Радиус.
-// Используйте константную переменную ПИ в не статичном методе, который вычисляет
-// площадь круга по формуле Площадь = Пи * Радиус*Радиус. Также создайте статичный метод,
-// который принимает в качестве параметра значение Радиуса и вычисляет площадь по формуле Площадь = 2 * ПИ * Радиус.
-//Продемонстрируйте работу обоих методов с выводом на консоль значение Площади
 public class Circle {
     public final static double PI = 3.14;
-    public double Radius;
+    public int radius;
 
-    public Circle(double Radius) {
+    public Circle(int radius) {
 
-        this.Radius = Radius;
+        this.radius = radius;
     }
 
-    public double getRadius() {
+    public int getRadius() {
 
-        return Radius;
+        return radius;
     }
 
-    public void setRadius(double Radius) {
+    public void setRadius(int radius) {
 
-        this.Radius = Radius;
+        this.radius = radius;
     }
 
-    public double sum1() {
+    public double y() {
 
-        return PI * Radius * Radius;
-    }
-
-    public static double sum2(double PI, double Radius) {
-        return 2 * PI * Radius;
+        return PI * radius * 2;
     }
 }
+
+
+
+
