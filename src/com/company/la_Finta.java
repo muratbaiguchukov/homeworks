@@ -3,8 +3,8 @@ package com.company;
     public class la_Finta extends Pizza {
         public boolean mushrooms;
 
-        public la_Finta(int price, int weight, boolean mushrooms) {
-            super(price, weight);
+        public la_Finta(int prise, int weight, boolean mushrooms) {
+            super(prise, weight);
             this.mushrooms = mushrooms;
         }
 
