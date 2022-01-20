@@ -2,9 +2,9 @@ package com.company.task7;
 
 public class Town extends Locality {
 
-    int[] district;
+    District[] district;
 
-    public Town(String name, int population, String supervisor, int[] district) {
+    public Town(String name, int population, String supervisor, District[] district) {
         super(name, population, supervisor);
         this.district = district;
     }

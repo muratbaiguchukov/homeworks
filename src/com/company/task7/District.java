@@ -1,7 +1,8 @@
 package com.company.task7;
 
-public class District extends Locality{
+public class District extends Locality {
     public District(String name, int population, String supervisor) {
+
         super(name, population, supervisor);
     }
 
