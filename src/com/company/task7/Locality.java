@@ -4,7 +4,7 @@ abstract class Locality {
 
     public String name;
     public int population;
-    public String supervisor;
+    public String supervisor;// агрегацию
 
     public Locality(String name, int population, String supervisor) {
         this.name = name;

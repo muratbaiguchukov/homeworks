@@ -5,7 +5,7 @@ public class TestLo {
     public static void main(String[] args) {
 
 
-        Town town = new Town("Moskau", 12000000, "Cобянин", 10);
+        Town town = new Town("Moskau", 12000000, "Cобянин", ());
         Town town1 = new Town("London", 9000000, "Sadic Han", 8);
         Town town2 = new Town("New-York", 8500000, "Eric Adams", 5);
         town.search();
